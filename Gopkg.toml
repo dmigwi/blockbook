@@ -72,3 +72,7 @@
 [[constraint]]
   branch = "master"
   name = "github.com/martinboehm/bchutil"
+
+[[constraint]]
+  name = "github.com/decred/dcrd"
+  version = "release-v1.5.0"

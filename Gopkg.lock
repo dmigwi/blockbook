@@ -70,21 +70,19 @@
   version = "v1.7"
 
 [[projects]]
-  branch = "master"
   name = "github.com/decred/base58"
   packages = ["."]
-  revision = "dbeddd8aab76c31eb2ea98351a63fa2c6bf46888"
+  version = "v1.0.2"
 
 [[projects]]
   name = "github.com/decred/dcrd"
-  packages = ["chaincfg","chaincfg/chainec","chaincfg/chainhash","dcrec","dcrec/edwards","dcrec/secp256k1","dcrec/secp256k1/schnorr","dcrjson","dcrutil","txscript","wire"]
-  revision = "e3e8c47c68b010dbddeb783ebad32a3a4993dd71"
-  version = "v1.4.0"
+  packages = [".", "chaincfg","chaincfg/chainec","chaincfg/chainhash","dcrec","dcrec/edwards","dcrec/secp256k1","dcrec/secp256k1/schnorr","dcrjson","dcrutil","txscript","wire"]
+  version = "release-v1.5.0"
 
 [[projects]]
   name = "github.com/decred/slog"
   packages = ["."]
-  revision = "fbd821ef791ba2b8ae945f5d44f4e49396d230c5"
+  revision = "f16e86e0260c3d0e6c38efc13aa2d2f02d48eb4e"
   version = "v1.0.0"
 
 [[projects]]
